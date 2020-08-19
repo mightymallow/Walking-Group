@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/map_custom_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/map_editTexts_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_custom_toolbar"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/origin_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address_of_meeting_point"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhiteText"
+            android:textColorHint="@color/textSecondary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/destination_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address_of_destination"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhiteText"
+            android:textColorHint="@color/textSecondary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/map_editTexts_linear_layout"
+        tools:context=".controller.MapActivity" />
+
+    <RelativeLayout
+        android:id="@+id/map_icon_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/map_editTexts_linear_layout"
+        android:paddingTop="65dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp">
+
+        <ImageView
+            android:id="@+id/map_activity_help_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/help_icon_description"
+            android:src="@drawable/ic_help" />
+
+        <Space
+            android:id="@+id/space_between_two_imageViews"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_below="@+id/map_activity_help_imageView" />
+
+        <ImageView
+            android:id="@+id/place_picker_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space_between_two_imageViews"
+            android:contentDescription="@string/reveals_nearby_places"
+            android:src="@drawable/ic_action_name" />
+
+
+        <ImageView
+            android:id="@+id/create_group_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space_between_two_imageViews"
+            android:contentDescription="@string/help_icon_description"
+            android:src="@drawable/ic_add"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:layout_marginTop="50dp"
+            android:id="@+id/view_groups_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space_between_two_imageViews"
+            android:src="@drawable/group_icon"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

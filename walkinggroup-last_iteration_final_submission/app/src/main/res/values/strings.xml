@@ -1,0 +1,353 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Walking Group</string>
+    <string name="group_name">Mango</string>
+    <string name="api_key" tools:ignore="TypographyDashes">554A5363-0A29-4A73-9821-47B1B7E392DB3</string>
+
+    <string name="api_key_working">This is %1$s\'s API key: %2$s</string>
+
+    <string name="post_log_in_message">User %1$s has logged in!</string>
+    <string name="token_set">Token has been set as %1$s.</string>
+
+    <string name="user_not_logged_in">You must first login</string>
+    <string name="monitors_btn_content">View Users Monitored</string>
+    <string name="monitored_by_btn_content">View Users Monitoring Me</string>
+
+    <string name="monitors_subtitle">Users You Monitor</string>
+    <string name="monitored_by_subtitle">Users Monitoring You</string>
+    <string name="add_user_subtitle">Add User %1$s</string>
+
+    <string name="monitors_textView_content">Accounts you monitor:</string>
+    <string name="monitored_by_textView_content">Accounts monitoring you:</string>
+
+    <string name="add_user_to_monitor_text">Add user to monitor</string>
+    <string name="add_user_to_monitor_you_text">Add user to monitor you</string>
+
+    <string name="delete_item_textView_content">Long click on a user to delete </string>
+    <string name="add_item_textView_content">Click on a user to add to the list</string>
+
+    <string name="user_name_textView_content">Name: %1$s</string>
+    <string name="user_email_textView_content">Email: %1$s</string>
+    <string name="user_time_sent_textView_content">Time Sent: %1$s</string>
+
+    <string name="delete_item_question">Are you sure you want to delete this user from the list?</string>
+    <string name="add_item_question">Are you sure you want to add this user to the list?</string>
+
+    <string name="add_to_group_question">Are you sure you want to add this user to the group?</string>
+    <string name="remove_from_group_question">Are you sure you want to remove this user from the group?</string>
+
+    <string name="positive_response">Yes, I\'m sure</string>
+    <string name="help_positive_response">OK</string>
+    <string name="negative_response">No</string>
+
+    <string name="title_activity_map">Map</string>
+
+    <string name="user_requested_to_be_added">A request has been sent to add %1$s</string>
+    <string name="user_edited">%1$s has been edited</string>
+
+    <string name="user_name">Username</string>
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login_user">Already have an account? <b> Login here</b></string>
+    <string name="default_name">No user</string>
+    <string name="login_button">Login</string>
+    <string name="create_user_text">Don\'t have an account? <b> Create one here</b></string>
+    <string name="create_user_button">Create Account</string>
+    <string name="logout_button">Logout</string>
+
+    <string name="empty_error_toast">Email and password cannot be empty</string>
+
+    <string name="random_long">12345</string>
+
+    <string name="save_id">Save - id</string>
+    <string name="save_username">Save - username</string>
+    <string name="save_user_email">Save - email</string>
+    <string name="save_user_password">Save - password</string>
+    <string name="save_token">Save - token</string>
+    <string name="login_subtitle">Login</string>
+    <string name="new_user_subtitle">New User</string>
+    <string name="main_menu_subtitle">Main Menu</string>
+
+    <string name="welcome_message">Welcome %1$s</string>
+    <string name="user_removed_message">A request has been sent to remove %1$s</string>
+
+    <string name="reveals_nearby_places">Reveals nearby places</string>
+    <string name="search_address">Search address</string>
+    <string name="address_of_destination">Destination </string>
+    <string name="address_of_meeting_point">Meeting Place</string>
+    <string name="help_icon_description">Help icon</string>
+    <string name="enter_your_group_name_here">Enter your group name here</string>
+    <string name="group_name_2">Group Name:</string>
+    <string name="result_ok">result ok</string>
+    <string name="cancelled">cancelled</string>
+    <string name="empty" />
+    <string name="login_btn_clicked">loginBtn button clicked</string>
+    <string name="now_have_token"><![CDATA[--> NOW HAVE TOKEN:]]></string>
+    <string name="check_inputs">Check inputs</string>
+    <string name="called_for_monitors">Called for monitors</string>
+    <string name="used_adpater">Used adapter</string>
+    <string name="user_info">user Info</string>
+    <string name="exception">Exception: %s</string>
+    <string name="choose_group_name">Choose your Group Name!</string>
+    <string name="permission_granted_message">Yes!!! Permission granted.</string>
+    <string name="permission_denied_message">Must allow Fine Location Access to utilize features</string>
+    <string name="location_null">Current location is null. Using defaults.</string>
+    <string name="specify_meet_and_destination_points">You must specify a meeting point and a destination point</string>
+    <string name="group_name_dialog">GroupNameDialog</string>
+    <string name="meeting_point_title">Meeting Point</string>
+
+    <string name="destination_title">Destination</string>
+    <string name="destination_title_for_group">%1$s group\'s destination</string>
+    <string name="group_title">%1$s</string>
+    <string name="messages_text">%1$s</string>
+    <string name="messages_num_text">%1$d</string>
+
+    <string name="map_btn_content">View Map</string>
+
+    <string name="email_error_text"><b>Email must be in format example@example.com</b></string>
+    <string name="birth_month_error_text">
+        <b>
+            Birth month must be minimum 1 representing January and maximum 12 representing December.
+        </b>
+    </string>
+    <string name="birth_year_error_text">
+        <b>
+            Birth year must be minimum 1897 and maximum 2018.
+        </b>
+    </string>
+    <string name="account_created">Account has been created. Enter email and password to login</string>
+
+    <string name="password_error_text">
+        <b>
+            Your password must meet the following criteria:\n
+            <li> Must be at least eight (8) characters long\n</li>
+            <li> Must contain both uppercase and lowercase letters\n</li>
+            <li> Must contain a number\n</li>
+        </b>
+    </string>
+
+    <string name="help">Help</string>
+
+    <string name="map_activity_help_dialog_message">
+        In order to create a new walking group first enter the meeting place
+        in the provided entry area at the top.
+        \n\n
+        Then click enter and proceed to enter the desired destination for
+        your walking group.
+        \n\n
+        If you are unsure of the exact address you can click on the map icon.
+        \n\n
+        The first time you click it, use the search bar to pick your meeting place.
+        The second time you click it, use the search bar to pick your destination.
+        \n\n
+        A plus icon will then appear.
+        \n\n
+        Clicking on this icon will allow you to enter a name for your
+        walking group after which your group will be saved.
+        \n\n
+    </string>
+
+    <string name="dashboard_map_help_dialog_message">
+        Welcome to your dashboard map. Here is where you can see the GPS locations and
+        timestamps for users you monitor along with the leaders of the groups they are in.
+        \n\n
+        Whenever you want to update the GPS locations to get
+        the most recent updates click the blue add marker icon.
+        \n\n
+        Clicking on a user will reveal when their location information was last updated.
+    </string>
+
+    <string name="how_to_use_the_app">How to use the app:</string>
+
+    <string name="group_updated">The group: %1$s has been updated</string>
+
+    <string name="group_name_requirement">Group name must contain at least one character</string>
+
+    <string name="user_question">What would you like to do with %1$s walking group?</string>
+    <string name="add_user_to_group">Add a user to the group</string>
+    <string name="remove_user_from_group">Remove a user from the group</string>
+    <string name="add_to_group_textView_content">Click on a user to add to the group</string>
+    <string name="remove_from_group_textView_content">Click on a user to remove from the group</string>
+    <string name="add_to_group_subtitle">Add User To Group</string>
+    <string name="remove_from_group_subtitle">Remove User From Group</string>
+
+    <string name="clicked_user_group_leader">The clicked user is the leader of this group</string>
+    <string name="help_dialog">HelpDialog</string>
+
+    <string name="map_activity_create_subtitle">Create New Walking Group</string>
+    <string name="map_activity_view_subtitle">View Walking Groups</string>
+    <string name="dashboard_map_activity_subtitle">Dashboard Map Display</string>
+
+    <string name="add_name">Click + to add a name to your walking group</string>
+    <string name="done_btn_content">Done</string>
+    <string name="next_btn_content">Next</string>
+
+    <string name="mango_logo">Mango logo</string>
+    <string name="walking_group_logo">Walking group logo</string>
+    <string name="map_image">map image</string>
+
+    <string name="edit_info_btn_content">View/Edit my info</string>
+    <string name="edit_info_subtitle">Edit Profile Information</string>
+
+    <string name="birth_year_hint">Year of birth</string>
+    <string name="birth_month_hint">Month you were born</string>
+    <string name="address_hint">Current physical address</string>
+    <string name="error_icon_content_description">error icon</string>
+    <string name="home_phone_hint">Home phone number</string>
+    <string name="cell_phone_hint">Cell phone number</string>
+    <string name="grade_hint">Current grade</string>
+    <string name="teacher_name_hint">Teacher\'s name</string>
+    <string name="emergency_contact_info_hint">Emergency contact information which may include the name of who you\'re monitoring, their relationship to you, their email, or their phone numbers, etc.</string>
+
+    <string name="save_btn_content">Save</string>
+
+    <string name="integer">%1$d</string>
+
+    <string name="email_wrong">Incorrect email format. Email will be reset to its initial value.</string>
+    <string name="birth_month_wrong">Incorrect birth month format. Birth month will be reset to its initial value</string>
+    <string name="birth_year_wrong">Incorrect birth year format. Birth year will be reset to its initial value</string>
+    <string name="ok_response">OK</string>
+
+    <string name="save_new_info">Are you sure you want to save this new information? Any previous information will be lost.</string>
+    <string name="user_updated">User information updated</string>
+
+    <!-- Regular expression source: https://gist.github.com/ravibharathii/3975295 -->
+    <string name="email_regex">^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$</string>
+    <string name="birth_month_regex">^[1-9]$|^1[0-2]$</string>
+    <string name="birth_year_regex">189[789]$|^19[0-9]{2}$|^200[0-9]$|^201[0-8]$</string>
+    <string name="password_regex">(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$</string>
+
+    <string name="launchMsg">Messages</string>
+    <string name="edit_item_textView_content">Click on a user to view/edit details</string>
+    <string name="non_existent_user">User is non-existent</string>
+    <string name="title_activity_tabbed_messenger">TabbedMessenger</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="enter_text_hint">Enter message here</string>
+    <string name="emergency_message"><b>EMERGENCY</b></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="new_message_icon">New</string>
+    <string name="broadcast_message_icon">Broadcast</string>
+    <string name="emergency_message_icon">Emergency</string>
+    <string name="start_gps_content_description">Start gps icon</string>
+    <string name="stop_gps_content_description">Stop gps icon</string>
+    <string name="enter_points_first">Enter both the meeting point and destination point first</string>
+    <string name="stop_sending_gps">Click X to stop tracking your current GPS location</string>
+
+    <string name="view_group_user_info">View information of members</string>
+    <string name="view_group_member_info_subtitle">View Group Member Info</string>
+
+    <string name="close_pop_up">Close</string>
+    <string name="user_info_textView_content">Click user to view monitor details</string>
+    <string name="gps_location_updated">GPS Location updated</string>
+    <string name="stopping_gps_tracking_after_ten_minutes">You are currently at your group\'s destination, GPS will stop being uploaded after ten minutes</string>
+    <string name="already_uploading_gps">Already started uploading your GPS Location</string>
+    <string name="stopping_gps_upload_now">Stopping GPS Location upload</string>
+    <string name="currently_not_in_a_group">You can only upload your GPS location if you are a group leader or member</string>
+    <string name="two_decimal_places_format">#.00</string>
+
+    <string name="no_message_found">No messages found</string>
+    <string name="getting_messages_error">Error getting messages</string>
+    <string name="message_sent_toast">Message sent</string>
+    <string name="broadcast_error_toast">ERROR: You must lead a group to send a broadcast</string>
+    <string name="newMsg_error_toast">ERROR: You must be monitored by someone to send this type of message</string>
+    <string name="emergency_error_toast">ERROR: You must be monitored by someone to send this type of message</string>
+    <string name="empty_message_error_text">Message cannot be empty</string>
+
+    <string name="group_leader_updated">Group leader location updated: \n %1$s ago</string>
+    <string name="group_member_updated">Group member location updated: \n %1$s ago</string>
+
+    <string name="markers_updating">Markers are updating…</string>
+    <string name="markers_updated">All user locations are updated</string>
+    <string name="display_markers">Display markers</string>
+    <string name="dashboard_map_btn_content">Dashboard Map</string>
+    <string name="messenger_btn_textView_content">Messaging</string>
+
+    <string name="start_gps_imageButton_textView_content">Start GPS</string>
+    <string name="stop_gps_imageButton_textView_content">Stop GPS</string>
+
+    <string name="dashboard_map_imageButton_textView_content">User Map</string>
+    <string name="messaging_title_textView">Messaging</string>
+    <string name="gps_activity_subtitle">GPS Location Tracking</string>
+
+    <string name="start_imageView_content_description">Start GPS Location Upload</string>
+    <string name="stop_imageView_content_description">Stop GPS Location Upload</string>
+    <string name="gps_upload_not_started">GPS upload has not been started</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="starting_gps_upload">Starting GPS upload…</string>
+
+    <string name="format_user_details">Name: %1$s \nEmail: %2$s \nAddress: %3$s \nHome Phone: %4$s \nCell Phone: %5$s</string>
+    <string name="messenger_activity_subtitle">Messages</string>
+    <string name="view_pending_requests_btn_content">View your permission requests</string>
+    <string name="todo">TODO</string>
+
+    <string name="pending_permissions_subtitle">Your Permission Requests</string>
+    <string name="status_textView_content">Status: %1$s</string>
+    <string name="request_details_textView_content">Request Details:\n%1$s</string>
+    <string name="authorizors_textView_content">%1$s</string>
+    <string name="permissions_request_textView_content">Click on a pending request to take action</string>
+
+    <string name="stop_monitor">A_STOP_MONITORING_B</string>
+    <string name="waiting_response_from_user_to_stop_monitoring_them">There\'s already a request for you to stop monitoring %1$s. Waiting for response from %1$s and you or any of the other monitors of %1$s</string>
+    <string name="waiting_response_from_user_to_stop_monitoring_you">There\'s already a request for %1$s to stop monitoring you. Waiting for response from you and %1$s or any of your other current monitors</string>
+
+    <string name="start_monitor">A_START_MONITOR_B</string>
+    <string name="waiting_for_response_from_user_to_start_monitoring_them">There\'s already a request for you to start monitoring %1$s. Waiting for response from you, %1$s and any of %1$s\'s current monitors</string>
+    <string name="waiting_for_response_from_user_to_start_monitoring_you">There\'s already a request for %1$s to start monitoring you. Waiting for response from you, %1$s and any of your current monitors</string>
+
+    <string name="request_made_to_lead_group">A request has been sent to your monitors for you to lead the %1$s group. If you have no monitors you will be set as the group leader now</string>
+    <string name="waiting_for_response_to_lead_group">Waiting for one of your monitors to respond to your request to lead the %1$s group</string>
+
+    <string name="join_group">A_JOIN_GROUP</string>
+    <string name="waiting_for_response_for_user_to_join_group">There\'s already a request for %1$s to join the %2$s group. Waiting for response from %1$s, any of %1$s\'s monitors and %2$s group\'s leader</string>
+
+    <string name="leave_group">A_LEAVE_GROUP</string>
+    <string name="waiting_for_response_for_user_to_leave_group">There\'s already a request for %1$s to leave the %2$s group. Waiting for response from %1$s and any of %1$s\'s monitors</string>
+    <string name="more_information">More information:</string>
+    <string name="has_not_responded">has not responded to this request</string>
+    <string name="approved_this_request">approved this request</string>
+    <string name="denied_this_request_whitespace">denied this request</string>
+    <string name="denied_this_request">denied this request</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="title_activity_permissions">Permissions</string>
+    <string name="title_activity_rewards_menu">RewardsMenuActivity</string>
+    <string name="view_rewards_menu_subtitle">Rewards</string>
+    <string name="view_avatar">View Your Avatar!</string>
+    <string name="unlocked_rewards">Unlocked Rewards</string>
+    <string name="locked_rewards">Purchasable Rewards:</string>
+    <string name="rewards">View Rewards</string>
+    <string name="view_old_rewards">View/Activate Rewards</string>
+    <string name="explain_points">Points Available To Spend:</string>
+    <string name="avatar_subtitle">Avatar</string>
+    <string name="old_rewards_subtitle">Unlocked Rewards</string>
+    <string name="instructions_for_avatar">Click on a reward to set it as your current avatar!</string>
+
+    <string name="acceptedString">This request has been accepted by&#160;</string>
+    <string name="deniedString">This request has been denied by&#160;</string>
+    <string name="authorizorToastString">All authorizors set to true</string>
+    <string name="getting_permissions">Getting Permissions&#8230;</string>
+    <string name="noPermissionFoundString">No permission requests found</string>
+
+    <string name="points_given">Giving %1$s %2$d points.</string>
+    <string name="leader_board_subtitle">LeaderBoard</string>
+
+    <string name="permissions_toolbar">Permissions</string>
+    <string name="view_leaderboard">View LeaderBoard</string>
+    <string name="view_map_string">View Map</string>
+    <string name="current_points_textView_content">Current Points: 0</string>
+    <string name="getting_group_information">Getting group information&#8230;</string>
+    <string name="no_groups_found">No groups found</string>
+    <string name="no_leader_found">\nThis group does not have a leader</string>
+    <string name="group_leader_name">\nGroup Leader:&#160;</string>
+    <string name="group_name_text">Group Name:&#160;</string>
+    <string name="members_text">\nMembers:&#160;</string>
+    <string name="group_has_no_members">\nThere are no members in this group</string>
+    <string name="to_earn_points_do_this_stuff_over_here">Gps upload started. You will earn points at the end of the walk if your starting location is equal to your groups starting location.</string>
+
+
+</resources>

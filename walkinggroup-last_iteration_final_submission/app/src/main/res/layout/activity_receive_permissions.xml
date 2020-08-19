@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/permissions_custom_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/permissions_custom_toolbar"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/getting_permissions"
+            android:layout_gravity="center"
+            android:id="@+id/getting_permissions_text"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/permissions_list"
+            android:visibility="invisible">
+
+        </ListView>
+
+    </FrameLayout>
+
+</RelativeLayout>

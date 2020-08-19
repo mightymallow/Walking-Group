@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/leader_board_relative_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.leaderboard.activity.LeaderBoardActivity">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:id="@+id/leader_board_custom_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/leader_board_custom_toolbar"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/user_descriptions_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="null_value">0dp</dimen>
+    <dimen name="min_dimension_value">5dp</dimen>
+    <dimen name="medium_dimension_value">10dp</dimen>
+    <dimen name="max_dimension_value">25dp</dimen>
+    <dimen name="weight_sum">100</dimen>
+    <dimen name="half_weight_sum">50</dimen>
+    <dimen name="account_monitoring_horizontal_linear_layout_height">427dp</dimen>
+    <dimen name="bottom_textView_margin_bottom">30dp</dimen>
+    <dimen name="listView_height">400dp</dimen>
+</resources>

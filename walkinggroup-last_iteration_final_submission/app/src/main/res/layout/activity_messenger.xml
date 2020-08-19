@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_messenger_layout"
+    tools:context=".controller.messenger.activity.MessengerActivity">
+
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/messenger_custom_toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/messenger_custom_toolbar"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Getting messages"
+            android:layout_gravity="center"
+            android:id="@+id/getting_messages_text"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/messages_list"
+            android:visibility="invisible">
+
+        </ListView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/broadcast_message_icon"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:paddingRight="5dp"
+                android:id="@+id/broadcast_message_icon_text"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/broadcast_icon"
+                android:background="@android:color/transparent"
+                android:id="@+id/broadcast_button"
+                android:layout_marginBottom="15dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_message_icon"
+                android:id="@+id/new_message_icon_text"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:paddingRight="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/new_message_icon"
+                android:background="@android:color/transparent"
+                android:id="@+id/new_msg_button"
+                android:layout_marginBottom="15dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_message_icon"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:paddingRight="5dp"
+                android:id="@+id/emergency_message_icon_text"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/emergency_icon"
+                android:background="@android:color/transparent"
+                android:id="@+id/emergency_button"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
